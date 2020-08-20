@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rightborder {
+    border-right: 1px solid #000;
+}
+
+.marginli {
+    margin-top: 5%;
+}
+
+.fontweight {
+    font-weight: normal;
+}
+
+.invoiceContainer {
+    width: 800px;
+    margin: 5% auto;
+    border: 3px solid #000;
+    overflow: hidden;
+    position: relative;
+}
+
+.right {
+    text-align: right;
+}
+
+/* invoice letf side start */
+
+.invoiceContainer .invoiceleftside {
+    border-right: 1px dashed #000;
+    float: left;
+}
+
+.invoiceleftside .titlenumber {
+    width: 270px;
+    padding: 8% 0 5% 8%;
+    border-bottom: 1px dashed #000;
+    font-family: Arial, sans-serif;
+}
+
+.invoiceleftside .titlenumber h1 {
+    margin-bottom: 5%;
+}
+
+.invoiceContainer .invoiceleftside .invoiceleftsidebottom {
+    margin-top: 25%;
+    padding: 0 0 0 8%;
+}
+
+.invoiceContainer .invoiceleftside .invoiceleftsidebottom .customerserver {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.invoiceContainer .invoiceleftside .invoiceleftsidebottom .customerserver p {
+    margin-bottom: 1%;
+}
+
+.invoiceContainer .invoiceleftside .invoiceleftsidebottom ul.listinfo {
+    list-style: none;
+    margin-top: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5%;
+}
+
+/* invice left side end */
+
+/* invoice righgt side */
+
+.invoiceContainer .invoicerirghtside {
+    float: left;
+    width: 520px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.invoiceContainer .invoicerirghtside .rightsidetop {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4% 0 0 4%;
+}
+
+.invoiceContainer .invoicerirghtside .invoicetable {
+    padding: 0 4% 0 4%;
+    margin-top: 4%;
+}
+
+.invoiceContainer .invoicerirghtside .invoicetable table.table {
+    width: 100%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.invoiceContainer .invoicerirghtside .invoicetable table.table tr td {
+    padding: 2% 0 2% 0;
+}
+
+.invoiceContainer .invoicerirghtside .payprice {
+    width: 230px;
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+}
+
+.invoiceContainer .invoicerirghtside .payprice p {
+    font-weight: bold;
+}
+
+/* invoice right side */
